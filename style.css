@@ -1,0 +1,37 @@
+@media screen and (max-width: 992px) {
+  .bg-light {
+    background: linear-gradient(
+      to right,
+      #fc88abc2,
+      #9051f578 38%,
+      #ceb8f29d 75%,
+      #e1e8fad1 100%
+    );
+  }
+  .decorate-phone {
+    margin: 0 5px 3px 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .bg-light {
+    background: linear-gradient(
+      to right,
+      #fc88abc2,
+      #9051f578 70%,
+      #ceb8f29d 85%,
+      #e1e8fad1 100%
+    );
+  }
+  .decorate-phone {
+    margin: 0 5px 3px 10px;
+  }
+}
+
+.styling-nav {
+  padding: 10px 15px 10px 15px;
+}
+
+.nav-text:hover {
+  text-decoration: underline;
+}

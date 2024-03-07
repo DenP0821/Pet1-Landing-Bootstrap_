@@ -75,3 +75,23 @@
 .styling-nav {
   padding: 10px 15px 10px 15px;
 }
+
+body {
+  background-image: url(BackgroungImg.jpg);
+  background-size: 100%;
+  font-family: "Comic Sans MS";
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info1 {
+  align-self: end;
+}
+
+.info2,
+.info3 {
+  align-self: center;
+}

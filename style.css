@@ -77,21 +77,43 @@
 }
 
 body {
-  background-image: url(BackgroungImg.jpg);
-  background-size: 100%;
+  background-color: #e6e6fa;
   font-family: "Comic Sans MS";
 }
 
 .main-info {
+  background-image: url(BackgroungImg.jpg);
+  background-size: cover;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  margin-top: 2%;
+  margin-right: 3%;
+  margin-left: 3%;
+  border: 4px offset #000000;
+  border-radius: 30px;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
 }
 
 .info1 {
-  align-self: end;
+  margin-right: 30%;
+  text-shadow: 2px 2px 5px #808080;
 }
 
-.info2,
+.info2 {
+  margin-left: 30%;
+  padding-top: 2%;
+  text-shadow: 2px 2px 5px #808080;
+}
+
 .info3 {
-  align-self: center;
+  margin-left: 30%;
+  text-shadow: 2px 2px 5px #808080;
+}
+
+.info4 {
+  margin-left: 30%;
+  text-shadow: 2px 2px 5px #808080;
 }

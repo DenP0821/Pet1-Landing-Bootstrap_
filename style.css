@@ -106,13 +106,18 @@ body {
 
 .main-info {
   background: url(BackgroungImg.jpg) center no-repeat;
+  background-size: cover;
   width: 100vw;
   height: 70vh;
-  box-sizing: border-box;
-  background-size: cover;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .info1 {
-  padding-top: 6%;
+  padding: 6% 0 1% 0;
+}
+
+.info1,
+.info2 {
+  text-shadow: 2px 2px 5px #000;
 }

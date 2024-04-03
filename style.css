@@ -123,14 +123,17 @@ body {
 }
 
 .userinfo {
-  display: inline-block;
   border: 2px solid #fff;
   border-radius: 20px;
-  height: max-content;
-  width: max-content;
+  padding: 1%;
+  margin: auto;
+}
+
+li {
+  padding: 1%;
 }
 
 .userpic {
   border-radius: 20px;
-  margin-right: 0;
+  margin: auto;
 }

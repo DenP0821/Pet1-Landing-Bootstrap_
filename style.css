@@ -144,8 +144,22 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .services-help {
+    flex-direction: column;
+  }
+
+  .services {
+    margin: 0 4% 15% 4%;
+  }
+
+  .help {
+    margin: 0 4% 0 4%;
+  }
+}
+
 body {
-  background-color: #fffafa;
+  background-color: #a2a2d0;
   font-family: "Comfortaa", sans-serif;
   color: #fff;
 }
@@ -173,7 +187,7 @@ body {
 }
 
 .card-color-shadow {
-  background-color: #1e90ff;
+  background-color: #318ce7;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
     rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
     rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
@@ -185,4 +199,29 @@ li {
 
 .card-img-shadow {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+p {
+  font-size: 1.1em;
+  letter-spacing: 2px;
+}
+
+.spacing-text {
+  padding-bottom: 5%;
+}
+
+.services-help {
+  display: flex;
+  gap: 10%;
+  justify-content: center;
+  padding: 4% 0 4% 0;
+  background-color: #966fd6;
+}
+
+.services {
+  margin-left: 4%;
+}
+
+.help {
+  margin-right: 4%;
 }

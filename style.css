@@ -171,7 +171,7 @@ body {
 .main-info {
   background: url(BackgroungImg.jpg) center no-repeat;
   background-size: cover;
-  width: 100vw;
+  width: 100%;
   height: 70vh;
   text-align: center;
   box-sizing: border-box;
@@ -184,6 +184,11 @@ body {
 .info1,
 .info2 {
   text-shadow: 2px 2px 5px #000;
+}
+
+.card {
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .card-color-shadow {
@@ -216,6 +221,7 @@ p {
   justify-content: center;
   padding: 4% 0 4% 0;
   background-color: #966fd6;
+  margin-bottom: 4%;
 }
 
 .services {

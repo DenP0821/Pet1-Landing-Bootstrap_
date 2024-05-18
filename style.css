@@ -71,10 +71,6 @@
     margin: 0 5px 3px 10px;
   }
 
-  .nav-text:hover {
-    text-decoration: underline;
-  }
-
   .info1::before {
     content: "";
     display: inline-block;
@@ -161,9 +157,9 @@
 }
 
 body {
-  background-color: #fadfad;
+  background-color: #f8f4ff;
   font-family: "Comfortaa", sans-serif;
-  color: #fff;
+  color: #fae08d;
 }
 
 .styling-nav {
@@ -184,6 +180,11 @@ body {
 }
 
 .info1,
+.info2 {
+  color: #fff;
+}
+
+.info1,
 .info2,
 h4,
 p {
@@ -197,10 +198,14 @@ p {
 }
 
 .card-color-shadow {
-  background-color: #318ce7;
+  background-color: #4c5072;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
     rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
     rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+ul li::marker {
+  content: "✔ ";
 }
 
 li {
@@ -227,7 +232,7 @@ p {
   gap: 10%;
   justify-content: center;
   padding: 4% 0;
-  background-color: #966fd6;
+  background-color: #4c5072;
   margin-bottom: 4%;
 }
 
@@ -242,6 +247,7 @@ p {
 .text-map {
   margin-left: 10%;
   color: #474a51;
+  font-weight: bold;
 }
 
 .api-map {
@@ -272,4 +278,15 @@ footer {
   color: #474a51;
   margin-top: 3%;
   text-shadow: none;
+}
+
+.styling-nav-text {
+  filter: invert(100%);
+  transition: filter 200ms linear;
+}
+
+.styling-svg {
+  filter: invert(100%);
+  transform: scale(1.15);
+  transition: transform 300ms linear;
 }
